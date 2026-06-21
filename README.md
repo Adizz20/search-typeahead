@@ -382,6 +382,6 @@ http://localhost:8080
 
 # 👨‍💻 Author
 
-**Aditya**
+**Aditya Vikram Singh**
 
 Scaler School of Technology
