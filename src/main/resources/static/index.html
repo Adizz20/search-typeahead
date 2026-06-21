@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Typeahead System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🔍 Search Typeahead</h1>
+    <p class="subtitle">
+        Fast Search Suggestions powered by PostgreSQL, Caching & Batch Writes
+    </p>
+
+    <div class="search-card">
+
+        <input
+                type="text"
+                id="searchBox"
+                placeholder="Search anything..."
+        >
+
+        <div id="suggestions"></div>
+
+        <button onclick="submitSearch()">
+            Search
+        </button>
+
+    </div>
+
+    <div class="result-card">
+
+        <h2>Result</h2>
+
+        <div id="result">
+            Start searching...
+        </div>
+
+    </div>
+
+    <div class="trending-card">
+
+        <h2>🔥 Trending Searches</h2>
+
+        <ul id="trending"></ul>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
